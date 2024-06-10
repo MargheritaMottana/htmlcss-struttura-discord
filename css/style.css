@@ -9,7 +9,7 @@
 
 /* GENERAL */
 
-.container-top {
+.container {
     max-width: 80%;
     margin: 0 auto;
     padding: 10px;
@@ -22,6 +22,15 @@
     margin: 0 auto;
     flex-grow: 1;
     max-width: 75%;
+    padding: 5px;
+}
+
+.yellow {
+    padding: 5px;
+}
+
+.middle {
+    text-align: center;
 }
 
 .column-20 {
@@ -38,12 +47,6 @@
 
 /* HEADER BOTTOM */
 
-.container-bottom {
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 10px;
-}
-
 .header-bottom {
     display: flex;
     margin: 0 auto;
@@ -58,18 +61,10 @@
     margin: 20px auto;
 }
 
-/* MAIN */
+/* MAIN COLONNE */
 
 .side-box {
-    height: 250px;
     margin: 20px auto;
-    max-width: 75%;
-}
-
-.container-2column {
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 10px 0;
 }
 
 .columns {
@@ -82,25 +77,65 @@
     flex-direction: row-reverse;
 }
 
+/* MAIN VERDE */
+
+.green {
+    margin: 20px auto;
+    max-width: 70%;
+}
+
+/* MAIN 5 COLONNE */
+
+
+/* FOOTER */
+
+.container-footer {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 1px;
+    padding-top: 10px;
+}
+
+.light-green {
+    margin: 20px auto;
+    max-width: 70%;
+}
+
+.button-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.light-pink {
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
 /* DEBUG */
 
-.debug .container-top {
+.debug .top-azzurro {
     background-color: #ADD8E6;
 }
 
-.debug .header-top>div {
+.debug .yellow {
     background-color: #DAA520;
-    min-height: 40px;
     border-style: dotted;
 }
 
-.debug .container-bottom {
+.debug .bottom-blue {
     background-color: #00008B;
 }
 
 .debug .box-center {
     background-color: #EE81EE;
     border-style: dotted;
+}
+
+.debug .side-box {
+    height: 250px;
 }
 
 .debug .pink-box {
@@ -115,4 +150,38 @@
 
 .debug .gray {
     background-color: lightgray;
+}
+
+.debug .green {
+    background-color: #228B21;
+    border-style: dotted;
+    height: 600px;
+}
+
+.debug .dark-gray {
+    background-color: #23272A;
+}
+
+.debug .lightgreen-box {
+    background-color: #20B1A9;
+    border-style: dotted;
+    border-color: white;
+    min-height: 400px;
+}
+
+.debug .salmon-box {
+    background-color: #EF8080;
+    border-style: dotted;
+    min-height: 400px;
+}
+
+.debug .light-green {
+    background-color: #7FFFD3;
+    border-style: dotted;
+    min-height: 60px;
+}
+
+.light-pink {
+    background-color: #FFB6C1;
+    border-style: dotted;
 }
